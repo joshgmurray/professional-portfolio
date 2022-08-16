@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #d9dcd6;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+}
+
+/* Header section */
+header {
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #305bdc;
+  color: #ffffff;
+}
+
+.portfolio-header ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.portfolio-header nav {
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+header h1 {
+  font-size: 48px;
+}
+
+header h1 .portfolio {
+  color: #e8cc2f;
+}
+
+header nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+
+  margin-left: 25px;
+}
+
+
+.hero {
+  height: 600px;
+  width: 100%;
+  margin-bottom: 20px;
+  background-image: url("background.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* main section */
+main .portfolio-section {
+  display: flex;
+}
+
+main {
+  margin-bottom: 20px;
+  padding: 50px;
+  /* height: 300px; */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #305bdc;
+  color: #e8cc2f;
+}
+
+.portfolio-section {
+  justify-content: center;
+}
+
+.portfolio-section img h2 p {
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+/* main article img { */
+/* max-height: 200px; */
+/* } */
+.float-left {
+  float: left;
+  margin-right: 25px;
+  width: 300px;
+  height: 160px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 25px;
+  width: 300px;
+  height: 160px;
+}
+
+main article h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+/* aside benefit section */
