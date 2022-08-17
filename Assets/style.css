@@ -84,7 +84,9 @@ main {
 }
 
 .portfolio-section {
-  justify-content: center;
+  justify-content: left;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .portfolio-section img h2 p {
