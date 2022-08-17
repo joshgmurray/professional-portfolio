@@ -12,7 +12,7 @@ a {
   text-decoration: none;
 }
 
-.portfolio-section p {
+ p {
   font-size: 22px;
   flex-wrap: wrap;
   justify-content: flex-start;
