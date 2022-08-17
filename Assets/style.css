@@ -130,4 +130,9 @@ main article h2 {
   font-size: 44px;
 }
 
+footer {
+  margin: 1.5rem;
+  text-align: center;
+}
+
 /* aside benefit section */
