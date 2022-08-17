@@ -14,7 +14,7 @@ a {
 }
 
 .portfolio-section p {
-  font-size: 16px;
+  font-size: 22px;
   flex-wrap: wrap;
   justify-content: flex-start;
 }
@@ -91,7 +91,7 @@ main .portfolio-section {
   flex-direction: row;
 }
 
-.portfolio-section img h2 p {
+.portfolio-section h2 p {
   justify-content: left;
   flex-wrap: wrap;
   flex-direction: row;
@@ -118,7 +118,7 @@ main .portfolio-section {
 
 main article h2 {
   margin-bottom: 20px;
-  font-size: 36px;
+  font-size: 44px;
 }
 
 /* aside benefit section */
