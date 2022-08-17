@@ -84,13 +84,32 @@ main .portfolio-section {
   color: #e8cc2f;
 }
 
+article {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 10px;
+}
+
+article img {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+h2 {
+  display: block;
+  font-size: 40px;
+  text-align: center;
+}
+
 .contact {
   width:100%;
   font-size: 22px;
 }
 .contact ul li {
   display: inline;
-
 }
 
 .divider {
@@ -130,10 +149,11 @@ main .portfolio-section {
 main article h2 {
   margin-bottom: 20px;
   font-size: 44px;
+  text-align: center;
 }
 
 footer {
-  margin: 1.5rem;
+  margin: 1px;
   text-align: center;
 }
 
