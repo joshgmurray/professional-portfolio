@@ -13,10 +13,10 @@ a {
   text-decoration: none;
 }
 
-p {
+.portfolio-section p {
   font-size: 16px;
-  margin-block-start: 4em;
-  margin-inline-start: -8.3em;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 /* Header section */
@@ -63,8 +63,8 @@ header nav ul li {
 
 
 .hero {
-  height: 350px;
   width: 100%;
+  margin-top: 20px;
   margin-bottom: 20px;
   background-image: url("background.jpeg");
   background-size: cover;
@@ -98,12 +98,14 @@ main .portfolio-section {
 }
 
 
-.float-left {
-  float: left;
-  margin-right: 25px;
-  position: relative;
-  width: 40%;
-  height: 120%;
+.profile-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  height: 100%;
+  border: solid;
+  border-radius: 50%;
 
 }
 
