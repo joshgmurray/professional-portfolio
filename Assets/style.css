@@ -22,7 +22,7 @@ a {
 /* Header section */
 header {
   padding: 20px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background-color: #305bdc;
   color: #ffffff;
 }
@@ -48,7 +48,7 @@ header h1 .portfolio {
 header nav {
   padding-top: 15px;
   margin-right: 20px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 20px;
 }
 
@@ -80,19 +80,18 @@ main .portfolio-section {
 main .portfolio-section {
   margin-bottom: 20px;
   padding: 50px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background-color: #305bdc;
   color: #e8cc2f;
 }
 
 .contact {
   width:100%;
-  border: 1px solid black;
   font-size: 22px;
-  marg
 }
-.contact li {
+.contact ul li {
   display: inline;
+
 }
 
 .portfolio-section {
