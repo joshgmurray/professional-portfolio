@@ -85,6 +85,16 @@ main .portfolio-section {
   color: #e8cc2f;
 }
 
+.contact {
+  width:100%;
+  border: 1px solid black;
+  font-size: 22px;
+  marg
+}
+.contact li {
+  display: inline;
+}
+
 .portfolio-section {
   justify-content: left;
   flex-wrap: wrap;
