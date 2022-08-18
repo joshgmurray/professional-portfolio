@@ -18,7 +18,7 @@ For this challenge I was asked to create a professional portfolio from scratch u
 * Organized CSS order to properly match the HTML structure
 * Applied appropriate comments to CSS file highlighting the work completed
 ## Live Link
-https://joshgmurray.github.io/professional-portfolio/
+
 ## Repo Link
 https://github.com/joshgmurray/professional-portfolio/
 ## Screenshot
