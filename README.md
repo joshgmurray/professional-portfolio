@@ -22,4 +22,4 @@ For this challenge I was asked to create a professional portfolio from scratch u
 ## Repo Link
 https://github.com/joshgmurray/professional-portfolio/
 ## Screenshot
-! [screenshot](./Assets/Screen%20Shot%202022-08-17%20at%205.18.24%20PM.png)
+![screenshot](./Assets/Screen%20Shot%202022-08-17%20at%205.18.24%20PM.png)
