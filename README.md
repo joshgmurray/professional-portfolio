@@ -1,4 +1,4 @@
-# professional-portfolio
+# Professional Portfolio
 ## Challenge Description
 For this challenge I was asked to create a professional portfolio from scratch using what we've learned in both HTML and CSS. By the end of this challenge, my application deploys at alive URL with working links and interactive application images.  
 ## Acceptance Criteria

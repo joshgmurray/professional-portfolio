@@ -12,7 +12,7 @@ a {
   text-decoration: none;
 }
 
- p {
+p {
   font-size: 22px;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -47,7 +47,7 @@ header h1 .portfolio {
 header nav {
   padding-top: 15px;
   margin-right: 20px;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 20px;
 }
 
@@ -86,7 +86,7 @@ main .portfolio-section {
 
 article {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   flex-wrap: wrap;
   flex-direction: row;
   padding: 10px;
@@ -96,6 +96,35 @@ article img {
   flex-wrap: wrap;
   justify-content: flex-start;
   flex-direction: row;
+  width: fit-content;
+}
+
+div.horiseon-title {
+  display: flex;
+  flex-direction: column;
+}
+
+div.coming-soon {
+  display: flex;
+  flex-direction: column;
+}
+
+.coming-soon {
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #e8cc2f;
+  display: flex;
+}
+
+.horiseon-title p {
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #e8cc2f;
+  display: flex;
+}
+
+img.horiseon {
+  width: 75%;
 }
 
 h2 {
@@ -105,9 +134,10 @@ h2 {
 }
 
 .contact {
-  width:100%;
+  width: 100%;
   font-size: 22px;
 }
+
 .contact ul li {
   display: inline;
 }
@@ -117,7 +147,7 @@ h2 {
 }
 
 .portfolio-section {
-  justify-content: left;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   flex-direction: row;
 }
@@ -152,9 +182,8 @@ main article h2 {
   text-align: center;
 }
 
+/* Footer Section */
 footer {
   margin: 1px;
   text-align: center;
 }
-
-/* aside benefit section */
